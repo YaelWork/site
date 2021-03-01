@@ -1,0 +1,134 @@
+.home{
+    background-image: url('../../images/90576.jpg');
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+    height: 100%;
+   width: 100%;
+   h1 {
+    text-align: center;
+    left: 14%;
+    position: absolute;
+    font-size: xxx-large;
+    color: #00ad8a;
+    text-shadow: 4px 4px 5px black;
+}
+#clean{
+    background-color: #fbf5f2;
+    left: 53%;
+    width: 46%;
+    top: 30%;
+    position: relative;
+    height: 27%;
+}
+h2{
+    text-align: center;
+    color: #001c30;
+    position: relative;
+    left: -8%;
+    top: 142%;
+    width: 102%;
+}
+.resum{
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: 143%;
+    color: #00ad8a;
+    font-size: larger;
+}
+#text {
+    background-color: #fbf5f2;
+    position: absolute;
+    top: 8%;
+    height: 25%;
+    width: 75%;
+    left: -23%;
+}
+
+}
+
+.btnPack{
+    transition: width 1s ease;
+
+}
+
+ button.btnPack {
+
+    top: 42%;
+    left: 88%;
+    position: relative;
+    z-index: 2;
+    transition: color 0.2s;
+    color: #001c30;
+    position: relative;
+    display: inline-block;
+    background-color: #00ad8a;
+    /* font-size: 1.2em; */
+    text-align: center;
+    padding: 0.5% 3% 0.5% 1%;
+    font-family: 'simpler-black', Arial;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    width: 15%;
+    line-height: 100%;
+  
+    border: 3px solid #001c30;
+    transition: width 1s ease;
+    // transition: width 1s ;
+    
+    }
+
+   .btnPack:hover{
+    color: #00ad8a ;
+    position: relative;
+       background-color: #001c30;
+  
+   }
+   .hoverLayout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000000;
+    display: block;
+    z-index: 1;
+    transition: width 1s ease;}
+
+    #contactme {
+        position: relative;
+        z-index: 2;
+        transition: color 0.2s;
+    }
+  #close{
+    cursor: pointer;
+    background-color: #001c30;
+    width: 3%;
+    height: 6%;
+    font-size: large;
+    color: #00ad8a;
+    border-radius: 4px;
+    position: relative;
+    bottom: 39%;
+    left: 78.5%;
+    box-shadow: 4px 4px 9px #001c30;
+    padding: 10px;
+  }
+
+// #hp012 .secPacks .flex-container-secPacks > div a.btnPack .hoverLayout {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 0;
+//     height: 100%;
+//     background: #000000;
+//     display: block;
+//     z-index: 1;
+//     transition: width 1s ease;}
+//     a.btnPack:hover .text {
+//         color: #2cd5c4;
+//     }

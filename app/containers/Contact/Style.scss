@@ -1,0 +1,110 @@
+#contact{
+  #reponse{
+    color: #00a485;
+    border: 2px solid #00a485;
+    padding: 5px;
+    margin: 1px 1px 1px -57px;
+  }
+  border-radius: 4px;
+  box-shadow: -5px 6px 8px #001c30;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-color: #001c30;
+    position: relative;
+    background-size: cover;
+    height: 44%;
+    width: 19%;
+    top: 5%;
+    left: 81%;
+    z-index: 7;
+  textarea{
+    margin: auto;
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px; 
+    width: 250px;
+    height: 91px;
+    border: 1px solid rgba(255,255,255,.6);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:15px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:15px;
+    padding-top:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+input {
+  margin: auto;
+  width: 85%;
+  height: 44px;
+  border: 1px solid rgba(255,255,255,0.4);
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  color: #fbf5f2;
+padding-left: 2px;
+  padding-right:10px;
+  
+}
+input#name {
+  background: rgba(255, 255, 255, 0.4)  scroll ; 
+  padding-left:45px;
+}
+input#email {
+  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_email.png) no-repeat scroll 16px 20px;
+  padding-left:45px;
+}
+
+input#message {
+  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
+  padding-left:45px;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+:-moz-placeholder{ 
+  color: #fff; 
+}
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {  
+  color: #fff; 
+}
+
+input:focus, textarea:focus { 
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+  -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+  box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+  overflow: hidden; 
+}
+.errors{
+  color: #00ad8a;
+  padding: 0px 0px 0px 23px;
+}
+#form{
+  position: relative;
+    top: 8%;
+}
+button{
+  background-color: #00ad8a9e;
+  left: 53%;
+  width: 40%;
+}
+}
